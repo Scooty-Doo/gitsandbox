@@ -21,7 +21,7 @@ jobs:
       - name: Set up Python 3.10
         uses: actions/setup-python@v4
         with:
-          python-version: 3.10
+          python-version: "3.10"
 
       # Install Poetry
       - name: Install Poetry
@@ -56,7 +56,7 @@ jobs:
       - name: Set up Python 3.10
         uses: actions/setup-python@v4
         with:
-          python-version: 3.10
+          python-version: "3.10"
 
       # Install Poetry
       - name: Install Poetry
@@ -75,5 +75,7 @@ jobs:
 
       # Run tests with pytest
       - name: Run tests with pytest
+        env:
+          PYTHONPATH: src
         run: |
           poetry run pytest
