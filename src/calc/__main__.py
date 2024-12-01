@@ -1,23 +1,24 @@
 from calc import add, sub, mul, div
 
+
 def cliLoop():
     while True:
         try:
-            x = float(input('Enter first number: '))
-            y = float(input('Enter second number: '))
-            op = input('Enter operation (+-*/ or quit): ')
-            if op == 'quit':
+            x = float(input("Enter first number: "))
+            y = float(input("Enter second number: "))
+            op = input("Enter operation (+-*/ or quit): ")
+            if op == "quit":
                 break
-            elif op == '+':
-                print(add(x,y))
-            elif op == '-':
-                print(sub(x,y))
-            elif op == '*':
-                print(mul(x,y))
-            elif op == '/':
-                print(div(x,y))
+            elif op == "+":
+                print(add(x, y))
+            elif op == "-":
+                print(sub(x, y))
+            elif op == "*":
+                print(mul(x, y))
+            elif op == "/":
+                print(div(x, y))
             else:
-                print('Invalid operation!')
+                print("Invalid operation!")
         except ValueError as e:
             print(e)
         except ZeroDivisionError as e:
@@ -25,5 +26,8 @@ def cliLoop():
         except KeyboardInterrupt:
             break
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     cliLoop()
+
+#blaaablabalbalabala
