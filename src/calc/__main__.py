@@ -26,13 +26,13 @@ def cliLoop():
         except KeyboardInterrupt:
             break
 
+
 def tjohopp():
-
-
     print("tjohopp")
+
 
 if __name__ == "__main__":
     cliLoop()
     tjohopp()
 
-#blaaablabalbalabala
+# blaaablabalbalabala
