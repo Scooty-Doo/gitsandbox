@@ -1,7 +1,8 @@
 # tests/test_calc.py
 
 import pytest
-from calc.calculator import add, sub, mul, div
+
+from calc.calculator import add, div, mul, sub
 
 
 def test_add():

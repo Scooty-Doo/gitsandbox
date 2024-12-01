@@ -1,4 +1,4 @@
-from calc import add, sub, mul, div
+from calc import add, div, mul, sub
 
 
 def cliLoop():
