@@ -41,7 +41,7 @@ jobs:
       # Run Ruff for linting
       - name: Run Ruff
         run: |
-          poetry run ruff .
+          poetry run ruff check
 
   test:
     runs-on: ubuntu-latest
