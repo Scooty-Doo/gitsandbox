@@ -1,4 +1,4 @@
-from calc import add, sub, mul, div
+from calc import add, div, mul, sub
 
 
 def cliLoop():
@@ -27,7 +27,12 @@ def cliLoop():
             break
 
 
+def tjohopp():
+    print("tjohopp")
+
+
 if __name__ == "__main__":
     cliLoop()
+    tjohopp()
 
-#blaaablabalbalabala
+# blaaablabalbalabala
